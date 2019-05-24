@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "We all wait for summer"
-author: john
+<!-- author: john -->
 categories: [ Jekyll, tutorial ]
 rating: .5
 ---
