@@ -3,7 +3,7 @@ layout: post
 title:  "Let's test spoilers"
 author: senthil
 categories: [ Jekyll, tutorial ]
-featured: true
+featured: false
 hidden: true
 ---
 
