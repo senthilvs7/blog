@@ -34,7 +34,7 @@ authors:
     avatar: 'assets/images/avatar.png'
     # gravatar: e56154546cf4be74e393c62d1ae9f9d4
     email: senthilvs7@gmail.com
-    # web: https://www.wowthemes.net
+    web: https://www.linkedin.com/in/senthilvs7/
     twitter: https://twitter.com/senthilvs7
     description: "Author of Mediumish, a Bootstrap Medium styled template available for WordPress, HTML, Ghost and Jekyll. You are currently previewing Jekyll template demo."
   # john:
@@ -66,6 +66,7 @@ jekyll-archives:
 # Pagination
 paginate: 6
 paginate_path: /page:num/
+# paginate_path: /posts/page:num/
 
 # Other
 markdown: kramdown
