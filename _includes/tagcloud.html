@@ -1,6 +1,7 @@
 <!-- http://longqian.me/2017/02/09/github-jekyll-tag/ -->
 
 <!-- <h2>Tag Cloud</h2> -->
+<ul class="tags mb-4">
 {% capture temptags %}
   {% for tag in site.tags %}
     {{ tag[1].size | plus: 1000 }}#{{ tag[0] }}#{{ tag[1].size }}
@@ -10,5 +11,8 @@
 {% for temptag in sortedtemptags %}
   {% assign tagitems = temptag | split: '#' %}
   {% capture tagname %}{{ tagitems[1] }}{% endcapture %}
-  <a href="{{site.baseurl}}/tags#{{ tagname }}"><code class="highligher-rouge"><nobr>{{ tagname }}</nobr></code></a>
+  <li>
+  <a href="{{site.baseurl}}/tags#{{ tagname }}"><code class="highligher-rouge"><nobr>#{{ tagname }}</nobr></code></a>
+  </li>
 {% endfor %}
+</ul>
